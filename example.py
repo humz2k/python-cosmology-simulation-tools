@@ -2,8 +2,8 @@ import py_cosmo_sim_tools as sim
 import matplotlib.pyplot as plt
 import numpy as np
 
-print(sim.cosmology.a2z(((1 - sim.cosmology.z2a(200))/625) * 624 + sim.cosmology.z2a(200)))
-exit()
+#print(sim.cosmology.a2z(((1 - sim.cosmology.z2a(200))/625) * 624 + sim.cosmology.z2a(200)))
+#exit()
 
 L = 128
 NP = 256
