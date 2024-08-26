@@ -13,7 +13,7 @@ def plot_pretty(dpi=150,fontsize=15):
     plt.rc('ytick.minor', pad=5)
     plt.rc('lines', dotted_pattern = [2., 2.])
     plt.rc('legend',fontsize=5)
-    plt.rc('text',usetex=True)
+    plt.rc('text',usetex=False)
     plt.rcParams['figure.figsize'] = [5, 2]
 
 def plot_vline(x,**kwargs):
